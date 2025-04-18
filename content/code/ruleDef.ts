@@ -4,7 +4,7 @@ const iriOrNil: SparqlRule<'iriOrNil', URL | null> = <const>{
   impl: ({SUBRULE, CONSUME, OR}) => () => OR<URL | null>([
     {ALT: () => SUBRULE(iri, undefined)},
     {ALT: () => {
-        CONSUME(l.terminals.nil);
+        CONSUME(nilToken);
         return null;
       } },
   ]),
