@@ -1,4 +1,4 @@
-guard 'rack', :port => 4000 do
+guard 'rack', :port => 3000 do
   watch 'Gemfile.lock'
 end
 
