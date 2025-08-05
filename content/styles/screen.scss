@@ -327,6 +327,14 @@ figure.numbered pre {
   }
 }
 
+#declaration-on-generative-ai {
+  h2 {
+    &::before {
+      content: "";
+    }
+  }
+}
+
 #references {
   h2 {
     &::before {
