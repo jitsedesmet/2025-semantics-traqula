@@ -61,7 +61,7 @@ audio { display:none; }
 iframe { display:none !important; }
 
 #references ol {
-font-family:"Linux Libertine", serif;
+font-family:"Libertinus", serif;
 font-size:12pt;
 }
 
@@ -113,7 +113,7 @@ widows:2;
 
 body {
 font-size:100%;
-font-family:"Linux Libertine", serif;
+font-family:"Libertinus", serif;
 /*position:relative;*/
 counter-reset:section;
 counter-reset:sub-section;
@@ -148,23 +148,27 @@ hyphens:none;
     text-transform: uppercase;
     display: block;
     font-weight: bold;
-    font-size:1.333em;
+    font-size:1em;
     margin: 0.75em 0 0.25em;
   }
 }
+
 
 .firstpagefooter {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.firstpagefootertop {
+  line-height: 0.1em;
+  display: block;
   width: 48%;
+  border-top: 1px solid black;
 }
 
 .footnotecopyright {
-  border-top: 1px solid black;
-  padding-top: 3px;
-  display: block;
   line-height:1.1em;
   font-size:0.8em;
 }
@@ -209,7 +213,7 @@ margin-left:1em;
 
 h1 {
 margin:0.75em auto 0.25em auto;
-font-family: 'Linux Biolinum', sans-serif;
+font-family: 'Libertinus', sans-serif;
 font-size:1.8em;
 text-align: left;
 }
@@ -257,7 +261,7 @@ text-transform:capitalize;
 }
 
 #subtitle {
-font-family:Arial, sans-serif;
+font-family: Libertinus, sans-serif;
 font-size:1.5em;
 text-align:center;
 }
@@ -545,7 +549,7 @@ font-size:1.0835em;
 }
 
 #author-email {
-font-family:Helvetica, Arial, sans-serif;
+font-family: Libertinus, serif;
 }
 
 
