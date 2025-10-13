@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
 @import 'reset.scss';
 
+.firstpagefootertop {
+  line-height: 0.1em;
+  display: block;
+  width: 48%;
+  border-top: 1px solid black;
+}
+
+* {
+  font-family: 'Libertinus', sans-serif !important;
+}
+
 @media screen {
   #repeating-title {
     display: none;
@@ -156,9 +167,9 @@ main, #appendix {
   h4 {
     font-weight: bold;
     margin: 0 1em 0 0;
-    
+
     counter-increment: subsubsection;
-    
+
     &::before {
       content: counter(section) "." counter(subsection) "." counter(subsubsection) ". ";
     }
@@ -391,7 +402,7 @@ table {
   thead {
     border-bottom: 1px solid;
   }
-  
+
   .hr {
     display: block;
     width: 100%;

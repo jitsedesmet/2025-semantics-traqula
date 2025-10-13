@@ -11,3 +11,14 @@ header {
 .screenonly {
   display: none;
 }
+
+.firstpagefootertop {
+  line-height: 0.1em;
+  display: block;
+  width: 48%;
+  border-top: 1px solid black;
+}
+
+* {
+  font-family: 'Libertinus', sans-serif !important;
+}
